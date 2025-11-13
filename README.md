@@ -11,12 +11,9 @@ Just click run on desktop and ensure there's a "Games" folder exists on your des
 An app doesn't require to access your any accounts, it's only scan "Games" folder and shows you what's installed.
 
 ### Features
-> Showing game covers with names []
 
-> Run game (it's gonna run shortcut) []
-
-> Search bar (Planned future feature) []
-
-> Descending (Planned future feature) []
-
-> Last 10 games you played (Planned future feature) []
+- Showing game covers with names
+- Run game (it's gonna run shortcut)
+- Search bar (Planned future feature)
+- Descending (Planned future feature)
+- Last 10 games you played (Planned future feature)
