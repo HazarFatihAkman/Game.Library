@@ -1,0 +1,17 @@
+CompileFlags:
+  Compiler: C:/msys64/mingw64/bin/g++.exe
+  Add:
+    - --target=x86_64-w64-mingw32
+    - -D_FORTIFY_SOURCE=2
+    # --- GTK 4 Main Includes ---
+    - -IC:/msys64/mingw64/include/gtk-4.0
+    - -IC:/msys64/mingw64/include/pango-1.0
+    - -IC:/msys64/mingw64/include/cairo
+    - -IC:/msys64/mingw64/include/gdk-pixbuf-2.0
+    - -IC:/msys64/mingw64/include/harfbuzz
+    # --- GLIB (Requires both include AND lib path) ---
+    - -IC:/msys64/mingw64/include/glib-2.0
+    - -IC:/msys64/mingw64/lib/glib-2.0/include
+    # --- GRAPHENE (Requires both include AND lib path) ---
+    - -IC:/msys64/mingw64/include/graphene-1.0
+    - -IC:/msys64/mingw64/lib/graphene-1.0/include
